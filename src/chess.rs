@@ -80,6 +80,10 @@ impl ChessBoard {
         self.occ
     }
 
+    pub fn pcs(&self) -> &[u8; 16] {
+        &self.pcs
+    }
+
     pub fn our_ksq(&self) -> u8 {
         self.ksq
     }
